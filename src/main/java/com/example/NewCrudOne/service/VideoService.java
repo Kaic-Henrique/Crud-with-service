@@ -4,6 +4,7 @@ import com.example.NewCrudOne.domain.Video;
 import com.example.NewCrudOne.repository.RepositoryVideo;
 import lombok.AllArgsConstructor;
 //import org.apache.commons.beanutils.BeanUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
